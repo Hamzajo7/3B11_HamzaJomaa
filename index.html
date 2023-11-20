@@ -1,0 +1,65 @@
+<html>
+<head>
+    <title>Mon Portfolio</title>
+</head>
+<body>
+	<!-- SECTION: Splashscreen -->
+	<div class="splashscreen">
+		<div class="preloader">
+			<span class="preloader__text">Loading</span>
+		</div>
+	</div>
+	<!-- END SECTION: Splashscreen -->
+   
+	<header>
+        <h1>Bienvenue sur mon Portfolio</h1>
+        <nav>
+		<a href="index.html" target="Acceuil"> Acceuil </a>   |
+		<a href="stages.html" target="Acceuil"> Experience </a>   |
+		<a href="Competence.html" target="Acceuil"> Compétences et projet </a>   |
+		<a href="Education.html" target="Acceuil"> Education et certifications </a>   |
+		<a href="contact.html" target="Acceuil"> contact </a>  
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>À propos de moi</h2>
+		<img src="image/1.jpg" alt="Mon Image" height="200" width="200">
+        <p>Je suis un développeur web avec une passion pour la création de sites web attrayants et fonctionnels.</p>
+        <ul>
+            <li><b>Nom et prenom:</b> Hamza JOMAA</li>
+            <li><b>Adresse:</b> Tunis</li>
+            <li><b>Numero:</b> 53160601</li>
+			<li><b>Email:</b> hamza.jomaa@esprit.tn</li>
+            <!-- Ajoutez ici d'autres compétences -->
+        </ul>
+    </section>
+        <!-- Ajoutez plus d'informations à propos de vous ici -->
+    </section>
+        
+       
+
+     <!-- SECTION : Contact -->
+		<section id="contact" class="contact">
+			<h2 class="contact__heading title">Contactez-moi</h2>
+			<div class="contact__wrapper wrapper--large">
+				<div class="contact__visual">
+					<img src="image/2.jpg" height="100" width="300">
+				</div>
+				<!-- Mise en place d'un formulaire simple : formspree.io -->
+				<form class="contact__form">
+					<input class="contact__form-el contact__form-el--name" type="text" placeholder="Votre Nom" spellcheck="false">
+					<input class="contact__form-el contact__form-el--email" type="email" placeholder="Votre E-mail" spellcheck="false">
+					<textarea class="contact__form-el contact__form-el--message" placeholder="Votre Message"></textarea>
+					<input class="contact__form-el contact__form-el--submit" type="submit" value="Envoyer">
+				</form>
+			</div>
+		</section>
+		<!-- FIN SECTION : Contact -->
+	</main>
+    
+    <footer>
+        <p>&copy; 2023 - Mon Portfolio</p>
+    </footer>
+</body>
+</html>
